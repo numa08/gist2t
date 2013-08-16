@@ -1,0 +1,11 @@
+{
+  "manifest_version" : 2,
+  "name" : "gist4t",
+  "version" : "0.1",
+  "content_scripts" : [
+  {
+    "matches" : ["https://gist.github.com/*"],
+    "js" : ["jquery-1.10.1.js", "twitter.js"]
+  }
+  ]
+}
